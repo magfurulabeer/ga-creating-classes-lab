@@ -51,6 +51,6 @@ public class Animal {
     }
 
     public String getFact() {
-        return "The " + this.name + " has a top speed of " + this.topSpeed + "mph.";
+        return "The " + this.name + " has a top speed of " + (int)this.topSpeed + " mph.";
     }
 }

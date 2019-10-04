@@ -19,7 +19,7 @@ public class AnimalTest {
     @Test
     public void printsCorrectTest() {
         String givenFact = a.getFact();
-        String actualFact = "The Cat has a top speed of 30.0mph.";
+        String actualFact = "The Cat has a top speed of 30mph.";
         assertEquals(givenFact, actualFact);
     }
 
